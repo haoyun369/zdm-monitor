@@ -9,7 +9,7 @@
 
 ## 部署（服务器执行一行）
 ```
-mkdir -p /opt/_sm && curl -sL https://codeload.github.com/你的用户名/你的仓库/tar.gz/refs/heads/main | tar xz -C /opt/_sm && bash /opt/_sm/*/deploy.sh
+mkdir -p /opt/_sm && curl -sL https://codeload.github.com/haoyun369/zdm-monitor/tar.gz/refs/heads/main | tar xz -C /opt/_sm && bash /opt/_sm/*/deploy.sh
 ```
 首次会生成 /opt/smzdm/config.txt 占位符，填好三项后重跑上面命令即启动。
 
