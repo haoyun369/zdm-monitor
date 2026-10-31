@@ -1,0 +1,4 @@
+# 企业微信推送配置（smzdm）—— 三项为占位符，部署后请填真实值
+CORP_ID=你的企业ID
+AGENT_ID=你的应用ID
+AGENT_SECRET=你的应用Secret
